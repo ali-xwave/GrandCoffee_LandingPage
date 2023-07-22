@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-margin{
+  padding-left: 10%;
+  gap: 50px;
+  }
+  
+  ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+  }
+
+  .bg{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .bg-icon{
+    background-color: #fff;
+  }
+
+  ul li a:hover{
+      background-color: orange;
+      color: #000;
+      padding: 20px;
+  }
+
+  .nav-bg{
+    background-color: #000;
+}
+
+/* Style for the container holding the image and text */
+.main{
+  position: relative;
+  max-width: 100%;
+}
+
+/* Style for the image */
+.main img {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Style for the text */
+.main .text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-20%, -20%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.padding{
+    padding: 15px 0 10px 0;
+}
+
+.para-size{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(46, 44, 44);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.color{
+    color: black;
+}
+
+ .image img{
+  height: 450px;
+  width: 550px;
+}
+
+.padding-row{
+  padding: 50px 0px;
+  font-weight: bold;
+  font-family: 'jost';
+}
+
+.about-text{
+  padding: 100px 0 0 0px;
+}
+
+.about-color{
+  color: rgb(235, 170, 51);
+}
+
+.gallery-align{
+text-align: center;
+padding: 20px 0 0 0;
+font-weight: bolder;
+}
+
+.col-img img{
+height: 400px;
+width: 365px;
+padding: 20px 0 0 0;
+}
+
+.card-1{
+  text-align: center;
+  padding: 32px 0 40px 0;
+  background-color: rgb(255, 179, 15);
+  border-radius: 20px;
+}
+
+.card-1-2{
+  text-align: center;
+  background-color: rgb(255, 179, 15);
+  border-radius: 20px;
+}
+
+.cards-padding{
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-cards-bellow{
+  padding: 50px 0;
+}
+
+#name{
+  width: 700px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px ;
+}
+
+#submitBtn{
+padding: 10px 10px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 30px;
+text-align: center;
+margin: 0 0 0 20px;
+}
+
+.footer{
+  background-color: rgb(51, 49, 49);
+  color: #fff;
+  margin: 10px 0 0 0;
+  padding: 100px 110px;
+}
+
+@media (max-width: 768px) {
+  .about-text{
+    padding: 100px 0 0 0px;
+    text-align: center;
+  }
+
+  .main .text {
+    font-size: 25px;
+  }
+
+  .image img{
+    width: 375px;
+    height: 350px;
+  }
+
+  .about-space {
+    padding: 15px 0px 0 10px;
+  }
+
+  #name {
+    width: 360px;
+    margin: 10px 10px;
+    padding: 10px 0 10px 20px;
+    border-radius: 30px;
+ }
+
+ #submitBtn {
+  margin: 0 0 0 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+  #tea-img {
+    width: 100%;
+    height: 70vh;
+  }
+  .footer{
+    background-color: rgb(51, 49, 49);
+    color: #fff;
+    margin: 10px 0 0 0;
+    padding:0;
+    text-align: center;
+  }
+}
